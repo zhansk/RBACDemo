@@ -1,0 +1,7 @@
+CREATE TABLE `user_role`
+(
+    id INTEGER NOT NULL PRIMARY KEY,
+    uid INTEGER NOT NULL,
+    rid INTEGER NOT NULL
+) DEFAULT CHARSET = utf8mb4
+  COLLATE utf8mb4_bin;

@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/security_demo?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none  #与flyway集成，建议关闭 ddl-auto
+  flyway:
+    enabled: true

@@ -1,0 +1,6 @@
+CREATE TABLE `role`
+(
+    id INTEGER NOT NULL PRIMARY KEY,
+    role VARCHAR(255) NOT NULL
+) DEFAULT CHARSET = utf8mb4
+  COLLATE utf8mb4_bin;

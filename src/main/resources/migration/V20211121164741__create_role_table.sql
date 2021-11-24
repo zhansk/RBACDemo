@@ -1,0 +1,7 @@
+CREATE TABLE `role_permission`
+(
+    id INTEGER NOT NULL PRIMARY KEY,
+    rid INTEGER NOT NULL,
+    pid INTEGER NOT NULL
+) DEFAULT CHARSET = utf8mb4
+  COLLATE utf8mb4_bin;

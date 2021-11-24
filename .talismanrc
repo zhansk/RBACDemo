@@ -1,0 +1,17 @@
+fileignoreconfig:
+- filename: src/main/resources/migration/V20210421162058__create_users_table.sql
+  checksum: 52f2fb6a216d345dc84a2acb2fd0d8e628fcf0f23fcd2b3c911a55b4f3a1dfa5
+- filename: src/main/resources/migration/V20210421164609__create_authorities_table.sql
+  checksum: 04f6249e1ceec612c7a6c85d95a7f1425ad619deaa40c0e60018f1ef88b28301
+- filename: src/main/resources/migration/V20211121164739__create_permission_table.sql
+  checksum: 413bf7642b2fcfd8a1046f1ce085917206adc55c9332e1fa51e57a0db67e5c2b
+- filename: src/main/resources/migration/V20211121164740__create_role_permission_table.sql
+  checksum: 5f5a0131308e35c6abfb9677790e3b5b7b343e4ab086becbd3a121c35dc228d6
+- filename: src/main/resources/migration/V20211121164741__create_role_table.sql
+  checksum: 82580a8415f92a176e5a02ba4f9cc7518f269ec8eeb32407f77070f32b7467e2
+- filename: src/main/resources/migration/V20211121164742__create_user_role_table.sql
+  checksum: f87443cb7e87d156105e1be1a4e4aea76c46e99e52200ba8f5795837d7564289
+- filename: src/main/resources/migration/V20211121164743__init.sql
+  checksum: ae3543621d9566075c2285a237978bf775a238305ee8930b659bb4b706a4b829
+- filename: src/main/java/bspringsecuritydemo/entity/Users.java
+  checksum: 9d116dde1d26588e16bc02cf750722909233d3f851c06f2ab31802e99c633709
